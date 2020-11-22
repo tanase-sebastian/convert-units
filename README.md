@@ -75,7 +75,7 @@ convert().from('kg').possibilities()
 You can also get the possible conversions for a measure:
 ```js
 convert().possibilities('mass')
-// [ 'mcg', 'mg', 'g', 'kg', 'oz', 'lb', 'mt', 't' ]
+// [ 'mcg', 'mg', 'g', 'kg', 'oz', 'lb', 'q', 'mt', 't' ]
 ```
 
 You can also get the all the available units:
@@ -158,6 +158,7 @@ Supported Units
 * kg
 * oz
 * lb
+* q
 * mt
 * t
 
